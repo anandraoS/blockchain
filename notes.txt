@@ -1,0 +1,9 @@
+Constructor for java script object
+Prototype object for block chain
+-----------------------------------
+User.Prototype.emailDomain = @facebook.com
+
+here User is a class
+if we create any prototype for class then for each and
+every object created using that class it will be 
+available under __proto__ section
