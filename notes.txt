@@ -7,3 +7,15 @@ here User is a class
 if we create any prototype for class then for each and
 every object created using that class it will be 
 available under __proto__ section
+-----------------------------------
+what is NOnce?
+--------------------------------------------
+nonce is basically coming from a proof of work
+in our case it's simply just a number
+this nonce it's pretty much a proof that we created this 
+block in a legitmated way 
+-------------------------------------------
+what is Hash?
+basically we pass transactions to a hash functions
+and compressed into a single string may be code it's only hash
+--------------------------------------------------------
