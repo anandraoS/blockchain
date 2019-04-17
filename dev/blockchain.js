@@ -3,16 +3,16 @@
 // Data structure of Block chain
 class BlockChain{
     constructor(){
-        this.chain= [];
+        this.chain= new Array();
         // all of the blocks will be storedin this chain array
-        this.newTransactions=[]; 
+        this.newTransactions=new Array(); 
         // all of the new transactions created before placing it into a block
         
     }
 }
 BlockChain.prototype.createNewBlock = (nonce, previousBlockHash, hash)=>{
 const newBlock={
-index: this.chain.length+1,
+index: this.chain.length + 1,
 timestamp: Date.now(),
 transactions: this.newTransactions,
 nonce: nonce,
@@ -23,3 +23,5 @@ this.newTransactions = [];
 this.chain.push(newBlock);
 return newBlock;
 }
+
+module.exports = BlockChain;
